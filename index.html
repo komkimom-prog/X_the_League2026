@@ -735,15 +735,18 @@
             .footer {
                 flex-direction: column;
                 align-items: flex-end;
-                min-height: 350px;
-                padding: 4rem 5%;
+                min-height: 500px;
+                padding: 3rem 5% 2rem 5%;
+                position: relative;
             }
             
             .footer-logo {
-                width: 95%;
+                width: 100%;
                 max-width: none;
-                left: 2.5%;
-                opacity: 0.35;
+                left: 0;
+                opacity: 0.4;
+                top: 50%;
+                transform: translateY(-50%);
             }
             
             .footer-large-text {
@@ -756,13 +759,17 @@
             
             .footer-contact-box {
                 padding: 1.2rem 2.5rem;
+                z-index: 10;
+                position: relative;
+                margin-bottom: 1rem;
             }
             
             .copyright {
                 margin-top: 2rem;
                 font-size: 0.75rem;
-                left: 2%;
-                bottom: 1rem;
+                left: 5%;
+                bottom: 1.5rem;
+                z-index: 10;
             }
         }
     </style>
