@@ -734,20 +734,23 @@
             
             .footer {
                 flex-direction: column;
+                justify-content: space-between;
                 align-items: flex-start;
-                min-height: 500px;
-                padding: 3rem 5% 2rem 5%;
+                min-height: 600px;
+                padding: 2rem 5% 3rem 5%;
                 position: relative;
             }
             
             .footer-logo {
-                width: 100%;
+                width: 80%;
                 max-width: none;
                 left: auto;
-                right: 0;
-                opacity: 0.4;
-                top: 50%;
-                transform: translateY(-50%);
+                right: 5%;
+                bottom: 15%;
+                top: auto;
+                transform: none;
+                opacity: 0.5;
+                position: absolute;
             }
             
             .footer-large-text {
@@ -755,22 +758,24 @@
             }
             
             .footer-contact-box .contact-text {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
             }
             
             .footer-contact-box {
-                padding: 1.2rem 2.5rem;
+                padding: 1.5rem 3rem;
                 z-index: 10;
                 position: relative;
-                margin-bottom: 1rem;
+                margin-top: 0;
+                margin-bottom: auto;
             }
             
             .copyright {
-                margin-top: 2rem;
+                margin-top: auto;
                 font-size: 0.75rem;
                 left: 5%;
-                bottom: 1.5rem;
+                bottom: 1rem;
                 z-index: 10;
+                position: absolute;
             }
         }
     </style>
