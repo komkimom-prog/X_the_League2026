@@ -720,6 +720,10 @@
                 font-size: 2rem;
             }
             
+            .section-subtitle {
+                font-size: 1.26rem;
+            }
+            
             .country-card {
                 min-height: 280px;
             }
@@ -734,8 +738,8 @@
             
             .footer {
                 flex-direction: column;
-                justify-content: space-between;
-                align-items: flex-start;
+                justify-content: flex-start;
+                align-items: center;
                 min-height: 600px;
                 padding: 2rem 5% 3rem 5%;
                 position: relative;
@@ -744,11 +748,9 @@
             .footer-logo {
                 width: 80%;
                 max-width: none;
-                left: auto;
-                right: 5%;
-                bottom: 15%;
-                top: auto;
-                transform: none;
+                left: 50%;
+                transform: translateX(-50%);
+                top: calc(10% + 6rem);
                 opacity: 0.5;
                 position: absolute;
             }
@@ -764,9 +766,10 @@
             .footer-contact-box {
                 padding: 1.5rem 3rem;
                 z-index: 10;
-                position: relative;
-                margin-top: 0;
-                margin-bottom: auto;
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translateX(-50%);
             }
             
             .copyright {
